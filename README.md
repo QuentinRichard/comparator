@@ -33,3 +33,7 @@ $ npm run build
 ```bash
 $ npm run start
 ```
+
+### Local path
+
+open a browser and type the url : http://localhost:3000/ to access to the app
