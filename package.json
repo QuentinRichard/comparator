@@ -6,6 +6,7 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
+    "preinstall": "npx mkdirp server/public",
     "install": "cd client && npm install && cd ../server && npm install",
     "build": "cd client && npm run build && cp -r dist/* ../server/public/ && cd ../server && npm run build",
     "start": "cd server && npm run start"
